@@ -23,7 +23,7 @@ export default function ProductHighlight({
           </h4>
         )}
         {heading && (
-        <h3 className="font-bold text-xl lg:text-2xl pt-5">{heading}</h3>
+          <h3 className="font-bold text-xl lg:text-2xl pt-5">{heading}</h3>
         )}
         <p className="text-sm font-medium text-[#333] lg:text-md">
           {description}

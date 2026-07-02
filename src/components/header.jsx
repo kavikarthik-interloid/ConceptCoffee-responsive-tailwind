@@ -6,26 +6,26 @@ import cafeLogo from "/logo.png";
 export default function Header() {
   const [isScrolled, setIsScrolled] = useState(false);
 
-useEffect(() => {
-  const handleScroll = () => {
-    setIsScrolled(window.scrollY >= 100);
-  };
+  useEffect(() => {
+    const handleScroll = () => {
+      setIsScrolled(window.scrollY >= 100);
+    };
 
-  window.addEventListener("scroll", handleScroll);
+    window.addEventListener("scroll", handleScroll);
 
-  return () => {
-    window.removeEventListener("scroll", handleScroll);
-  };
-}, []);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
 
   return (
-   <header
-  className={`fixed top-0 left-0 right-0 z-20 flex h-20 items-center justify-center transition-all duration-300  lg:justify-between lg:px-10 ${
-    isScrolled
-      ? "bg-white shadow-md text-black"
-      : "bg-transparent text-white md:h-40"
-  }`}
->
+    <header
+      className={`fixed top-0 left-0 right-0 z-20 flex h-20 items-center justify-center transition-all duration-300  lg:justify-between lg:px-10 ${
+        isScrolled
+          ? "bg-white shadow-md text-black"
+          : "bg-transparent text-white md:h-40"
+      }`}
+    >
       <div className="hidden translate-x-[30px] font-bold font-montserrat text-[14px] lg:block lg:flex lg:gap-4  uppercase">
         <span>Home</span>
         <span>Pages</span>
