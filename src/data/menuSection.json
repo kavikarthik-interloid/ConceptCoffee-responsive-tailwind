@@ -1,0 +1,104 @@
+[
+    {
+        "id": 1,
+        "category": "lunch",
+        "dishes": [
+            {
+                "id": 1,
+                "name": "Seafood Paella",
+                "isNew": true
+            },
+            {
+                "id": 2,
+                "name": "Grilled Fillet",
+                "isNew": false
+            },
+            {
+                "id": 3,
+                "name": "Roast Sea Trout",
+                "isNew": false
+            },
+            {
+                "id": 4,
+                "name": "French Toast",
+                "isNew": false
+            }
+        ],
+        "price": 24
+    },
+    {
+        "id": 2,
+        "category": "Dinner",
+        "dishes":[{
+            "id": 1,
+            "name":"Grilled Chicken",
+            "isNew": false
+        },
+        {
+            "id": 2,
+            "name":"Steak Frites",
+            "isNew": false
+        },
+        {
+            "id": 3,
+            "name":"Grilled Asparagus",
+            "isNew": false
+        },
+        {
+            "id": 4,
+            "name":"Pork fillet",
+            "isNew": false
+        }
+    ],"price": 34
+    },
+    { 
+        "id": 3,
+        "category": "Dessert",
+        "dishes":[{
+            "id": 1,
+            "name":"Crepe Complete",
+            "isNew": false
+        },
+        {
+            "id": 2,
+            "name":"Blueberry Sweet Rolls",
+            "isNew": false
+        },
+        {
+            "id": 3,
+            "name":"Pancake",
+            "isNew": false
+        },
+        {
+            "id": 4,
+            "name":"Pain au chocolat",
+            "isNew": false
+        }
+    ],"price": 18
+    },
+    {
+        "id": 4,
+        "category": "Breakfast",
+        "dishes":[{
+            "id": 1,
+            "name":"French Breakfast",
+            "isNew": false
+        },
+        {
+            "id": 2,
+            "name":"English Breakfast",
+            "isNew": false
+        },
+        {
+            "id": 3,
+            "name":"Eggs Benedict",
+            "isNew": true
+        },
+        {
+            "id": 4,
+            "name":"Veg Breakfast",
+            "isNew": false
+        }
+    ], "price": 28
+    }
+]

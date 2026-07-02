@@ -1,0 +1,26 @@
+[
+    {
+    "id":1,
+    "dishName": "salads",
+    "dishImage": "/60.jpg",
+    "description": "Lorem ipsum dolor sit amet, consectetur elit. Nulla convallis pulvinar."
+},
+{
+    "id":2,
+    "dishName": "Breakfast",
+    "dishImage": "/20.jpg",
+    "description": "Lorem ipsum dolor sit amet, consectetur elit. Nulla convallis pulvinar."
+},
+{
+    "id":3,
+    "dishName": "Bakery",
+    "dishImage": "/62.jpg",
+    "description": "Lorem ipsum dolor sit amet, consectetur elit. Nulla convallis pulvinar."
+},
+{
+    "id":4,
+    "dishName": "Desserts",
+    "dishImage": "/63.jpg",
+    "description": "Lorem ipsum dolor sit amet, consectetur elit. Nulla convallis pulvinar."
+}
+]
