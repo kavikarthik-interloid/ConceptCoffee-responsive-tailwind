@@ -39,6 +39,7 @@ export default function SpecialItem() {
               <img
                 src={item.dishImage}
                 alt={item.dishName}
+                fetchPriority="high"
                 className="w-full rounded-full object-cover"
               />
 

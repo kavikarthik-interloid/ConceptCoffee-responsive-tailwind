@@ -1,7 +1,7 @@
 import Header from "./components/header";
 import HeroSection from "./components/hero-section";
 import SpecialItem from "./components/special-items-section";
-import ProductHighlight from "./components/productHighlight";
+import ProductHighlight from "./components/product-highlight";
 import MenuSection from "./components/menu-section";
 import Moments from "./components/moments";
 import conceptCoffee from "/69.jpg";
@@ -11,7 +11,12 @@ export default function App() {
   return (
     <>
       <Header />
-      <HeroSection />
+      <HeroSection
+        heading="Eat responsibly"
+        shopFirstName="Cafe"
+        shopLastName="Concept"
+        subHeading="DELIVERY 800-CONCEPT"
+      />
       <SpecialItem />
       <ProductHighlight
         price="28"
@@ -28,8 +33,7 @@ export default function App() {
         image={ConceptDish}
         signature="Chef James Concept"
       />
-
-      <Moments />
+      <Moments moments={["/62.jpg","/60.jpg","/63.jpg"]} />
     </>
   );
 }

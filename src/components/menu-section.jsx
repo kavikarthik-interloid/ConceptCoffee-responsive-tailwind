@@ -1,4 +1,4 @@
-import MenuItems from "./menuItems";
+import MenuItems from "./menu-items";
 
 export default function MenuSection() {
   return (

@@ -34,7 +34,7 @@ export default function ProductHighlight({
       </div>
 
       <div className="relative pt-10 lg:pt-0 lg:w-1/2">
-        <img src={image} alt={heading} className="w-full  object-cover" />
+        <img src={image} alt={heading} loading="lazy" className="w-full max-h-[600px] object-cover" />
         {buyButton ? (
           <button className="absolute bottom-4 text-sm left-5 rounded-3xl bg-white px-4 py-1 font-bold uppercase shadow-md">
             {buyButton}
